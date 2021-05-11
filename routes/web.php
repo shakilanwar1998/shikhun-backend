@@ -1,18 +1,33 @@
 <?php
 
-/** @var \Laravel\Lumen\Routing\Router $router */
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| Application Routes
+| Web Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register all of the routes for an application.
-| It is a breeze. Simply tell Lumen the URIs it should respond to
-| and give it the Closure to call when that URI is requested.
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
+Route::get('/', function () {
+    return view('welcome');
 });
+
+Route::group(['as' => 'teacher.', 'prefix' => 'teacher', 'namespace' => 'Backend', 'middleware' => 'auth'], function () {
+    Route::get('/', 'TeacherController@index')->name('list');
+    Route::post('/store', 'TeacherController@store')->name('store');
+    Route::post('/update', 'TeacherController@update')->name('update');
+    Route::post('/delete', 'TeacherController@delete')->name('delete');
+});
+
+Route::group(['as' => 'order.', 'prefix' => 'order', 'namespace' => 'Backend', 'middleware' => 'auth'], function () {
+    Route::get('/', 'OrderController@index')->name('list');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

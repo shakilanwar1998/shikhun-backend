@@ -1,0 +1,16 @@
+.page-section .row:first-child{
+	border-bottom: 1px solid #cdcdcda8;
+	padding: 15px 0px;
+}
+
+.user-edit-fileinput {
+	position: absolute;
+	visibility: hidden;
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+}
+
+.heading h2{
+	margin-bottom: 0;
+}
