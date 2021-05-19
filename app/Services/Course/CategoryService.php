@@ -8,4 +8,39 @@ use App\Interfaces\Crud;
 class CategoryService implements Crud
 {
 
+    /**
+     * @param $data
+     * @return mixed
+     */
+    public function create($data)
+    {
+        // TODO: Implement create() method.
+    }
+
+    /**
+     * @param $id
+     * @param $data
+     * @return mixed
+     */
+    public function update($id, $data)
+    {
+        // TODO: Implement update() method.
+    }
+
+    /**
+     * @param $id
+     * @return mixed
+     */
+    public function delete($id)
+    {
+        // TODO: Implement delete() method.
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAll()
+    {
+        // TODO: Implement getAll() method.
+    }
 }
