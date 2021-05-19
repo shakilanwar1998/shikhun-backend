@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::group(['as' => 'course.', 'prefix' => '/course', 'namespace' => 'Api', 'middleware' => 'auth:api'], function () {
+    Route::get('/', 'CoursesController@getCourses')->name('list');
+    Route::post('/store', 'TeacherController@store')->name('store');
+    Route::post('/update', 'TeacherController@update')->name('update');
+    Route::post('/delete', 'TeacherController@delete')->name('delete');
 });

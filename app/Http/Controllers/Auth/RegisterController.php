@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Enums\UserRole;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\User;
@@ -67,8 +68,10 @@ class RegisterController extends Controller
     {
         return User::create([
             'first_name' => $data['first_name'],
-            'last_name' => $data['first_name'],
+            'last_name' => $data['last_name'],
+            'uuid'      => $data['email'],
             'email' => $data['email'],
+            'role_id'   => UserRole::STUDENT,
             'password' => Hash::make($data['password']),
         ]);
     }
