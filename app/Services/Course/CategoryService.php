@@ -4,6 +4,7 @@
 namespace App\Services\Course;
 
 use App\Interfaces\Crud;
+use App\Models\Course\Category;
 
 class CategoryService implements Crud
 {
@@ -41,6 +42,6 @@ class CategoryService implements Crud
      */
     public function getAll()
     {
-        // TODO: Implement getAll() method.
+        return Category::all();
     }
 }
