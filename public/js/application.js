@@ -201,11 +201,9 @@ $(function () {
 
   $(document).on("click", "#save-category", function () {
     var name = $("#category_name").val();
-    var priority = $("#category_priority").val();
     var action = $(this).data('url');
     var data = {
-      name: name,
-      priority: priority
+      name: name
     };
     var options = {
       "class": 'clear-input',
@@ -218,19 +216,16 @@ $(function () {
     var id = $(this).data('id');
     $("#update-id").val(id);
     $("#update-name").val($("#name-" + id).text());
-    $("#update-priority").val($("#priority-" + id).text());
     $("#updateModal").modal('show');
   }); //update category
 
   $(document).on("click", "#update-category", function () {
     var id = $("#update-id").val();
     var name = $("#update-name").val();
-    var priority = $("#update-priority").val();
     var action = $(this).data('url');
     var data = {
       id: id,
-      name: name,
-      priority: priority
+      name: name
     };
     var options = {
       id: id,
@@ -301,6 +296,20 @@ $(function () {
 
   $("#user-img").change(function () {
     readImgURL(this);
+  });
+  $(document).on('change', '#media_type', function () {
+    var select = $(this).find('option:selected');
+    var src = select.val();
+
+    if (src == "youtube" || src == "embed") {
+      var text = "<input type=\"text\" name=\"video\" class=\"form-control\" placeholder=\"Enter video data\">";
+      $("#upload_video").html(text);
+    } else if (src == "upload") {
+      var upload = "<input type=\"file\" name=\"video\" class=\"form-control\">";
+      $("#upload_video").html(upload);
+    } else {
+      $("#upload_video").html("");
+    }
   });
 });
 
@@ -380,7 +389,7 @@ $(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\js\application.js */"./resources/assets/js/application.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\js\application.js */"./resources/assets/js/application.js");
 
 
 /***/ })

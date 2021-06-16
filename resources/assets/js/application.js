@@ -97,9 +97,8 @@ $(function () {
 	//add category
 	$(document).on("click", "#save-category", function(){
 		let name = $("#category_name").val()
-		let priority = $("#category_priority").val()
 		let action= $(this).data('url')
-		let data = {name: name, priority: priority}
+		let data = {name: name}
 		let options = {class: 'clear-input', view: 'category-data'}
 		addData(action, data, options)
 	})
@@ -109,7 +108,6 @@ $(function () {
 		let id = $(this).data('id')
 		$("#update-id").val(id)
 		$("#update-name").val($("#name-"+id).text())
-		$("#update-priority").val($("#priority-"+id).text())
 		$("#updateModal").modal('show')
 	})
 
@@ -119,10 +117,9 @@ $(function () {
 
 		let id = $("#update-id").val();
 		let name = $("#update-name").val();
-		let priority = $("#update-priority").val();
 
 		let action= $(this).data('url');
-		let data = {id: id, name: name, priority: priority}
+		let data = {id: id, name: name}
 		let options = {id: id, class: 'clear-input'}
 
 		updateData(action, data, options)
@@ -185,5 +182,21 @@ $(function () {
     $("#user-img").change(function(){
         readImgURL(this);
     });
+
+
+    $(document).on('change', '#media_type', function(){
+    	var select = $(this).find('option:selected');
+    	var src = select.val();
+
+    	if(src == "youtube" || src == "embed") {
+    		let text = `<input type="text" name="video" class="form-control" placeholder="Enter video data">`
+    		$("#upload_video").html(text);
+    	} else if(src == "upload") {
+    		let upload = `<input type="file" name="video" class="form-control">`
+    		$("#upload_video").html(upload);
+    	} else {
+    		$("#upload_video").html("");
+    	}
+    })
 
 })

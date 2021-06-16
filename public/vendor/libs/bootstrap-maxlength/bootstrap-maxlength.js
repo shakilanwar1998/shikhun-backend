@@ -616,7 +616,7 @@ __webpack_require__(/*! bootstrap-maxlength/src/bootstrap-maxlength.js */ "./nod
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-maxlength\bootstrap-maxlength.js */"./resources/assets/vendor/libs/bootstrap-maxlength/bootstrap-maxlength.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-maxlength\bootstrap-maxlength.js */"./resources/assets/vendor/libs/bootstrap-maxlength/bootstrap-maxlength.js");
 
 
 /***/ })

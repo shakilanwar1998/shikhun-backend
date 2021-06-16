@@ -1993,7 +1993,7 @@ __webpack_require__(/*! numeral/locales.js */ "./node_modules/numeral/locales.js
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\numeral\numeral.js */"./resources/assets/vendor/libs/numeral/numeral.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\numeral\numeral.js */"./resources/assets/vendor/libs/numeral/numeral.js");
 
 
 /***/ })

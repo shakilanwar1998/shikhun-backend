@@ -246,7 +246,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/sticky-header/bootstrap-t
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\sticky-header\sticky-header.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/sticky-header/sticky-header.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\sticky-header\sticky-header.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/sticky-header/sticky-header.js");
 
 
 /***/ })

@@ -191,7 +191,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/resizable/bootstrap-table
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\resizable\resizable.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/resizable/resizable.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\resizable\resizable.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/resizable/resizable.js");
 
 
 /***/ })

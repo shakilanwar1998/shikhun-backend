@@ -45393,14 +45393,14 @@ function (modules) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\libs\datatables\datatables.js */"./resources/assets/libs/datatables/datatables.js");
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\libs\swiper\swiper.js */"./resources/assets/libs/swiper/swiper.js");
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\libs\sweetalert2\sweetalert2.js */"./resources/assets/libs/sweetalert2/sweetalert2.js");
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\libs\growl\growl.js */"./resources/assets/libs/growl/growl.js");
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\libs\bootstrap-select\bootstrap-select.js */"./resources/assets/libs/bootstrap-select/bootstrap-select.js");
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\libs\select2\select2.js */"./resources/assets/libs/select2/select2.js");
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\libs\bootstrap-tagsinput\bootstrap-tagsinput.js */"./resources/assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.js");
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\libs\summernote-bs4\summernote-bs4.min.js */"./resources/assets/libs/summernote-bs4/summernote-bs4.min.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\libs\datatables\datatables.js */"./resources/assets/libs/datatables/datatables.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\libs\swiper\swiper.js */"./resources/assets/libs/swiper/swiper.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\libs\sweetalert2\sweetalert2.js */"./resources/assets/libs/sweetalert2/sweetalert2.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\libs\growl\growl.js */"./resources/assets/libs/growl/growl.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\libs\bootstrap-select\bootstrap-select.js */"./resources/assets/libs/bootstrap-select/bootstrap-select.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\libs\select2\select2.js */"./resources/assets/libs/select2/select2.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\libs\bootstrap-tagsinput\bootstrap-tagsinput.js */"./resources/assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\libs\summernote-bs4\summernote-bs4.min.js */"./resources/assets/libs/summernote-bs4/summernote-bs4.min.js");
 
 
 /***/ }),

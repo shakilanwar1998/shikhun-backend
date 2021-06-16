@@ -133,4 +133,9 @@ abstract class AbstractResourceService
     {
         return $this->model->where($column, $data)->first();
     }
+
+    public function getFindBy($data, string $column = 'id')
+    {
+        return $this->model->where($column, $data)->get();
+    }
 }

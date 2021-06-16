@@ -1343,7 +1343,7 @@ __webpack_require__(/*! pwstrength-bootstrap/dist/pwstrength-bootstrap.js */ "./
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\pwstrength-bootstrap\pwstrength-bootstrap.js */"./resources/assets/vendor/libs/pwstrength-bootstrap/pwstrength-bootstrap.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\pwstrength-bootstrap\pwstrength-bootstrap.js */"./resources/assets/vendor/libs/pwstrength-bootstrap/pwstrength-bootstrap.js");
 
 
 /***/ }),

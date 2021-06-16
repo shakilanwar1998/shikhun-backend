@@ -3781,7 +3781,7 @@ __webpack_require__(/*! cropper/dist/cropper.common.js */ "./node_modules/croppe
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\cropper\cropper.js */"./resources/assets/vendor/libs/cropper/cropper.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\cropper\cropper.js */"./resources/assets/vendor/libs/cropper/cropper.js");
 
 
 /***/ }),

@@ -2809,7 +2809,7 @@ var markdown = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\markdown\markdown.js */"./resources/assets/vendor/libs/markdown/markdown.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\markdown\markdown.js */"./resources/assets/vendor/libs/markdown/markdown.js");
 
 
 /***/ })

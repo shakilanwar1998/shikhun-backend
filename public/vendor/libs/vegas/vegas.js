@@ -894,7 +894,7 @@ __webpack_require__(/*! ./_extension.js */ "./resources/assets/vendor/libs/vegas
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\vegas\vegas.js */"./resources/assets/vendor/libs/vegas/vegas.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\vegas\vegas.js */"./resources/assets/vendor/libs/vegas/vegas.js");
 
 
 /***/ })

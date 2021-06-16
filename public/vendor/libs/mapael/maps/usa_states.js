@@ -260,7 +260,7 @@ __webpack_require__(/*! jquery-mapael/js/maps/usa_states.js */ "./node_modules/j
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\mapael\maps\usa_states.js */"./resources/assets/vendor/libs/mapael/maps/usa_states.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\mapael\maps\usa_states.js */"./resources/assets/vendor/libs/mapael/maps/usa_states.js");
 
 
 /***/ }),

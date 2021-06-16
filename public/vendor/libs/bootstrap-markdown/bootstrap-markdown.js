@@ -1502,7 +1502,7 @@ __webpack_require__(/*! bootstrap-markdown/js/bootstrap-markdown.js */ "./node_m
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-markdown\bootstrap-markdown.js */"./resources/assets/vendor/libs/bootstrap-markdown/bootstrap-markdown.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-markdown\bootstrap-markdown.js */"./resources/assets/vendor/libs/bootstrap-markdown/bootstrap-markdown.js");
 
 
 /***/ }),

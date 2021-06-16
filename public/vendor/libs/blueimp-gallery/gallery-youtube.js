@@ -349,7 +349,7 @@ __webpack_require__(/*! blueimp-gallery/js/blueimp-gallery-youtube.js */ "./node
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\blueimp-gallery\gallery-youtube.js */"./resources/assets/vendor/libs/blueimp-gallery/gallery-youtube.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\blueimp-gallery\gallery-youtube.js */"./resources/assets/vendor/libs/blueimp-gallery/gallery-youtube.js");
 
 
 /***/ }),

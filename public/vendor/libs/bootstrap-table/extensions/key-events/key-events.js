@@ -259,7 +259,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/key-events/bootstrap-tabl
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\key-events\key-events.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/key-events/key-events.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\key-events\key-events.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/key-events/key-events.js");
 
 
 /***/ })

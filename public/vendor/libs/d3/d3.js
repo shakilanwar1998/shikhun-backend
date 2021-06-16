@@ -18688,7 +18688,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\d3\d3.js */"./resources/assets/vendor/libs/d3/d3.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\d3\d3.js */"./resources/assets/vendor/libs/d3/d3.js");
 
 
 /***/ })

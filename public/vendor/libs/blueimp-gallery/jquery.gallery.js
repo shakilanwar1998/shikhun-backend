@@ -202,7 +202,7 @@ __webpack_require__(/*! blueimp-gallery/js/jquery.blueimp-gallery.js */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\blueimp-gallery\jquery.gallery.js */"./resources/assets/vendor/libs/blueimp-gallery/jquery.gallery.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\blueimp-gallery\jquery.gallery.js */"./resources/assets/vendor/libs/blueimp-gallery/jquery.gallery.js");
 
 
 /***/ }),

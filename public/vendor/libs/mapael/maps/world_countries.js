@@ -341,7 +341,7 @@ __webpack_require__(/*! jquery-mapael/js/maps/world_countries.js */ "./node_modu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\mapael\maps\world_countries.js */"./resources/assets/vendor/libs/mapael/maps/world_countries.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\mapael\maps\world_countries.js */"./resources/assets/vendor/libs/mapael/maps/world_countries.js");
 
 
 /***/ }),

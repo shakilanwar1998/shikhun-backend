@@ -535,7 +535,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/accent-neutralise/bootstr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\accent-neutralise\accent-neutralise.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/accent-neutralise/accent-neutralise.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\accent-neutralise\accent-neutralise.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/accent-neutralise/accent-neutralise.js");
 
 
 /***/ })

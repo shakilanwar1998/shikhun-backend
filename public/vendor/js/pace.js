@@ -1072,7 +1072,7 @@ if (document.readyState === 'complete') hidePaceLoader();else document.addEventL
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\js\pace.js */"./resources/assets/vendor/js/pace.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\js\pace.js */"./resources/assets/vendor/js/pace.js");
 
 
 /***/ }),

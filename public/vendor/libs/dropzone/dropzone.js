@@ -3689,7 +3689,7 @@ dropzone_dist_dropzone_js__WEBPACK_IMPORTED_MODULE_0___default.a.prototype.defau
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\dropzone\dropzone.js */"./resources/assets/vendor/libs/dropzone/dropzone.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\dropzone\dropzone.js */"./resources/assets/vendor/libs/dropzone/dropzone.js");
 
 
 /***/ })

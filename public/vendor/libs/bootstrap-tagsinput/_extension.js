@@ -157,7 +157,7 @@ $(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-tagsinput\_extension.js */"./resources/assets/vendor/libs/bootstrap-tagsinput/_extension.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-tagsinput\_extension.js */"./resources/assets/vendor/libs/bootstrap-tagsinput/_extension.js");
 
 
 /***/ })

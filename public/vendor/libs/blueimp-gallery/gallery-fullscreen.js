@@ -210,7 +210,7 @@ __webpack_require__(/*! blueimp-gallery/js/blueimp-gallery-fullscreen.js */ "./n
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\blueimp-gallery\gallery-fullscreen.js */"./resources/assets/vendor/libs/blueimp-gallery/gallery-fullscreen.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\blueimp-gallery\gallery-fullscreen.js */"./resources/assets/vendor/libs/blueimp-gallery/gallery-fullscreen.js");
 
 
 /***/ }),

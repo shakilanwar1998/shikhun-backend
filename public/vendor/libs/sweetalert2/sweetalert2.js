@@ -3042,7 +3042,7 @@ var Swal = sweetalert2_dist_sweetalert2_js__WEBPACK_IMPORTED_MODULE_0__["mixin"]
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\sweetalert2\sweetalert2.js */"./resources/assets/vendor/libs/sweetalert2/sweetalert2.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\sweetalert2\sweetalert2.js */"./resources/assets/vendor/libs/sweetalert2/sweetalert2.js");
 
 
 /***/ })

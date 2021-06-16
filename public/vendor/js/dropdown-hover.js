@@ -164,7 +164,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\js\dropdown-hover.js */"./resources/assets/vendor/js/dropdown-hover.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\js\dropdown-hover.js */"./resources/assets/vendor/js/dropdown-hover.js");
 
 
 /***/ })

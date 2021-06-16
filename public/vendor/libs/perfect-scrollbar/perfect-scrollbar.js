@@ -1444,7 +1444,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\perfect-scrollbar\perfect-scrollbar.js */"./resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\perfect-scrollbar\perfect-scrollbar.js */"./resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js");
 
 
 /***/ })

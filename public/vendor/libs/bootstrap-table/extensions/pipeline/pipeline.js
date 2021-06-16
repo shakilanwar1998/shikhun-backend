@@ -442,7 +442,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/pipeline/bootstrap-table-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\pipeline\pipeline.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/pipeline/pipeline.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\pipeline\pipeline.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/pipeline/pipeline.js");
 
 
 /***/ })

@@ -579,7 +579,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/multiple-sort/bootstrap-t
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\multiple-sort\multiple-sort.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/multiple-sort/multiple-sort.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\multiple-sort\multiple-sort.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/multiple-sort/multiple-sort.js");
 
 
 /***/ })

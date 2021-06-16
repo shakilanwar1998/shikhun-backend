@@ -8923,7 +8923,7 @@ __webpack_require__(/*! core-js/features/symbol */ "./node_modules/core-js/featu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\js\polyfills.js */"./resources/assets/vendor/js/polyfills.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\js\polyfills.js */"./resources/assets/vendor/js/polyfills.js");
 
 
 /***/ })

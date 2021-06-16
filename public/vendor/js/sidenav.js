@@ -1015,7 +1015,7 @@ var SideNav = /*#__PURE__*/function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\js\sidenav.js */"./resources/assets/vendor/js/sidenav.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\js\sidenav.js */"./resources/assets/vendor/js/sidenav.js");
 
 
 /***/ })

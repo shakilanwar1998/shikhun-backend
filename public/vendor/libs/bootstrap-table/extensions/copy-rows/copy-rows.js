@@ -244,7 +244,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/copy-rows/bootstrap-table
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\copy-rows\copy-rows.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/copy-rows/copy-rows.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\copy-rows\copy-rows.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/copy-rows/copy-rows.js");
 
 
 /***/ })

@@ -6914,7 +6914,7 @@ __webpack_require__(/*! select2/dist/js/select2.full.js */ "./node_modules/selec
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\select2\select2.js */"./resources/assets/vendor/libs/select2/select2.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\select2\select2.js */"./resources/assets/vendor/libs/select2/select2.js");
 
 
 /***/ }),

@@ -325,7 +325,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/group-by-v2/bootstrap-tab
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\group-by-v2\group-by-v2.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/group-by-v2/group-by-v2.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\group-by-v2\group-by-v2.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/group-by-v2/group-by-v2.js");
 
 
 /***/ })

@@ -1684,7 +1684,7 @@ $.fn.daterangepicker = function (options, callback) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-daterangepicker\bootstrap-daterangepicker.js */"./resources/assets/vendor/libs/bootstrap-daterangepicker/bootstrap-daterangepicker.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-daterangepicker\bootstrap-daterangepicker.js */"./resources/assets/vendor/libs/bootstrap-daterangepicker/bootstrap-daterangepicker.js");
 
 
 /***/ }),

@@ -18,7 +18,7 @@
         </li>
 
         <li class="sidenav-item">
-            <a href="#" class="sidenav-link"><i class="sidenav-icon ion ion-md-folder">
+            <a href="{{ route('category.list') }}" class="sidenav-link"><i class="sidenav-icon ion ion-md-folder">
                 </i><div>Course Categories</div>
             </a>
         </li>
@@ -30,7 +30,7 @@
 
             <ul class="sidenav-menu">
                 <li class="sidenav-item">
-                    <a href="#" class="sidenav-link"><div>Course</div></a>
+                    <a href="{{ route('course.list') }}" class="sidenav-link"><div>Course</div></a>
                 </li>
                 <li class="sidenav-item">
                     <a href="#" class="sidenav-link"><div>Lesson</div></a>

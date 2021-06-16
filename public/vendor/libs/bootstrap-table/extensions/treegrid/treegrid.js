@@ -296,7 +296,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/treegrid/bootstrap-table-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\treegrid\treegrid.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/treegrid/treegrid.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\treegrid\treegrid.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/treegrid/treegrid.js");
 
 
 /***/ })

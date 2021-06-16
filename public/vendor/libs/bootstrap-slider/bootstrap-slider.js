@@ -2308,7 +2308,7 @@ __webpack_require__(/*! bootstrap-slider/src/js/bootstrap-slider.js */ "./node_m
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-slider\bootstrap-slider.js */"./resources/assets/vendor/libs/bootstrap-slider/bootstrap-slider.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-slider\bootstrap-slider.js */"./resources/assets/vendor/libs/bootstrap-slider/bootstrap-slider.js");
 
 
 /***/ }),

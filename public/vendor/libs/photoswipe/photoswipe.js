@@ -4832,7 +4832,7 @@ var initPhotoSwipeFromDOM = function initPhotoSwipeFromDOM(gallerySelector, gall
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\photoswipe\photoswipe.js */"./resources/assets/vendor/libs/photoswipe/photoswipe.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\photoswipe\photoswipe.js */"./resources/assets/vendor/libs/photoswipe/photoswipe.js");
 
 
 /***/ })

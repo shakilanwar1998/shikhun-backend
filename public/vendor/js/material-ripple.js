@@ -1452,7 +1452,7 @@ function detachMaterialRipple() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\js\material-ripple.js */"./resources/assets/vendor/js/material-ripple.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\js\material-ripple.js */"./resources/assets/vendor/js/material-ripple.js");
 
 
 /***/ })

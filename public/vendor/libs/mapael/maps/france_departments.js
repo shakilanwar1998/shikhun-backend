@@ -276,7 +276,7 @@ __webpack_require__(/*! jquery-mapael/js/maps/france_departments.js */ "./node_m
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\mapael\maps\france_departments.js */"./resources/assets/vendor/libs/mapael/maps/france_departments.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\mapael\maps\france_departments.js */"./resources/assets/vendor/libs/mapael/maps/france_departments.js");
 
 
 /***/ }),

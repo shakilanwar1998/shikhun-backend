@@ -2541,7 +2541,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\masonry\masonry.js */"./resources/assets/vendor/libs/masonry/masonry.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\masonry\masonry.js */"./resources/assets/vendor/libs/masonry/masonry.js");
 
 
 /***/ }),

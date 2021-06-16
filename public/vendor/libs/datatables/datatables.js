@@ -15660,7 +15660,7 @@ __webpack_require__(/*! datatables.net-bs4/js/dataTables.bootstrap4.js */ "./nod
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\datatables\datatables.js */"./resources/assets/vendor/libs/datatables/datatables.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\datatables\datatables.js */"./resources/assets/vendor/libs/datatables/datatables.js");
 
 
 /***/ }),

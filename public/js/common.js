@@ -5069,9 +5069,9 @@ function (modules) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\js\material-ripple.js */"./resources/assets/js/material-ripple.js");
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\js\layout-helpers.js */"./resources/assets/js/layout-helpers.js");
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\js\theme-settings.js */"./resources/assets/js/theme-settings.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\js\material-ripple.js */"./resources/assets/js/material-ripple.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\js\layout-helpers.js */"./resources/assets/js/layout-helpers.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\js\theme-settings.js */"./resources/assets/js/theme-settings.js");
 
 
 /***/ })

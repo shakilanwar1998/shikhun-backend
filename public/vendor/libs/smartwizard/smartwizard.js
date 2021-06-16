@@ -761,7 +761,7 @@ __webpack_require__(/*! smartwizard/dist/js/jquery.smartWizard.js */ "./node_mod
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\smartwizard\smartwizard.js */"./resources/assets/vendor/libs/smartwizard/smartwizard.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\smartwizard\smartwizard.js */"./resources/assets/vendor/libs/smartwizard/smartwizard.js");
 
 
 /***/ })

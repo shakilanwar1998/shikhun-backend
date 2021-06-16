@@ -12098,9 +12098,9 @@ function (modules) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\libs\popper\popper.js */"./resources/assets/libs/popper/popper.js");
-__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\libs\bootstrap.js */"./resources/assets/libs/bootstrap.js");
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\js\sidenav.js */"./resources/assets/js/sidenav.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\libs\popper\popper.js */"./resources/assets/libs/popper/popper.js");
+__webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\libs\bootstrap.js */"./resources/assets/libs/bootstrap.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\js\sidenav.js */"./resources/assets/js/sidenav.js");
 
 
 /***/ })

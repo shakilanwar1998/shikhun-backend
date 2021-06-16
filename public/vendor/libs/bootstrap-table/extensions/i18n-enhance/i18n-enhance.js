@@ -181,7 +181,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/i18n-enhance/bootstrap-ta
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\i18n-enhance\i18n-enhance.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/i18n-enhance/i18n-enhance.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\i18n-enhance\i18n-enhance.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/i18n-enhance/i18n-enhance.js");
 
 
 /***/ })

@@ -3293,7 +3293,7 @@ __webpack_require__(/*! jquery-validation/dist/additional-methods.js */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\validate\validate.js */"./resources/assets/vendor/libs/validate/validate.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\validate\validate.js */"./resources/assets/vendor/libs/validate/validate.js");
 
 
 /***/ }),

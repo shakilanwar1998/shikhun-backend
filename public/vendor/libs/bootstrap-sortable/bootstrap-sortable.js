@@ -716,7 +716,7 @@ var __WEBPACK_LOCAL_MODULE_0__, __WEBPACK_LOCAL_MODULE_0__factory, __WEBPACK_LOC
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-sortable\bootstrap-sortable.js */"./resources/assets/vendor/libs/bootstrap-sortable/bootstrap-sortable.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-sortable\bootstrap-sortable.js */"./resources/assets/vendor/libs/bootstrap-sortable/bootstrap-sortable.js");
 
 
 /***/ }),

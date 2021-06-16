@@ -425,7 +425,7 @@ __webpack_require__(/*! jquery.growl/javascripts/jquery.growl.js */ "./node_modu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\growl\growl.js */"./resources/assets/vendor/libs/growl/growl.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\growl\growl.js */"./resources/assets/vendor/libs/growl/growl.js");
 
 
 /***/ })

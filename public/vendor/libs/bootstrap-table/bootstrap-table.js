@@ -4331,7 +4331,7 @@ __webpack_require__(/*! bootstrap-table/src/bootstrap-table.js */ "./node_module
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\bootstrap-table.js */"./resources/assets/vendor/libs/bootstrap-table/bootstrap-table.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\bootstrap-table.js */"./resources/assets/vendor/libs/bootstrap-table/bootstrap-table.js");
 
 
 /***/ })

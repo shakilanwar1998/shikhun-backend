@@ -2741,7 +2741,7 @@ popper_js_dist_popper_js__WEBPACK_IMPORTED_MODULE_0__["default"].Defaults.modifi
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\popper\popper.js */"./resources/assets/vendor/libs/popper/popper.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\popper\popper.js */"./resources/assets/vendor/libs/popper/popper.js");
 
 
 /***/ })

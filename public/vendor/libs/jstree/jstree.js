@@ -8768,7 +8768,7 @@ __webpack_require__(/*! jstree/dist/jstree.js */ "./node_modules/jstree/dist/jst
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\jstree\jstree.js */"./resources/assets/vendor/libs/jstree/jstree.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\jstree\jstree.js */"./resources/assets/vendor/libs/jstree/jstree.js");
 
 
 /***/ }),

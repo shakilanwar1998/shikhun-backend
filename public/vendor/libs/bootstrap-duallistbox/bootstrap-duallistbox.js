@@ -951,7 +951,7 @@ __webpack_require__(/*! bootstrap-duallistbox/src/jquery.bootstrap-duallistbox.j
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-duallistbox\bootstrap-duallistbox.js */"./resources/assets/vendor/libs/bootstrap-duallistbox/bootstrap-duallistbox.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-duallistbox\bootstrap-duallistbox.js */"./resources/assets/vendor/libs/bootstrap-duallistbox/bootstrap-duallistbox.js");
 
 
 /***/ })

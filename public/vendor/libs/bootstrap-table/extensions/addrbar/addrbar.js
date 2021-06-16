@@ -287,7 +287,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/addrbar/bootstrap-table-a
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\addrbar\addrbar.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/addrbar/addrbar.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\addrbar\addrbar.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/addrbar/addrbar.js");
 
 
 /***/ })

@@ -2007,7 +2007,7 @@ __webpack_require__(/*! morris.js/morris.js */ "./node_modules/morris.js/morris.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\morris\morris.js */"./resources/assets/vendor/libs/morris/morris.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\morris\morris.js */"./resources/assets/vendor/libs/morris/morris.js");
 
 
 /***/ })

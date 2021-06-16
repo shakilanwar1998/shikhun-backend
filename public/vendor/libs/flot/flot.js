@@ -11020,7 +11020,7 @@ __webpack_require__(/*! ./tooltip.js */ "./resources/assets/vendor/libs/flot/too
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\flot\flot.js */"./resources/assets/vendor/libs/flot/flot.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\flot\flot.js */"./resources/assets/vendor/libs/flot/flot.js");
 
 
 /***/ })

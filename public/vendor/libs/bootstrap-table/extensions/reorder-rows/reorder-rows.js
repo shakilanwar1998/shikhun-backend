@@ -229,7 +229,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/reorder-rows/bootstrap-ta
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\reorder-rows\reorder-rows.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/reorder-rows/reorder-rows.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\reorder-rows\reorder-rows.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/reorder-rows/reorder-rows.js");
 
 
 /***/ })

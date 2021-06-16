@@ -1239,7 +1239,7 @@ __webpack_require__(/*! @claviska/jquery-minicolors/jquery.minicolors.js */ "./n
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\minicolors\minicolors.js */"./resources/assets/vendor/libs/minicolors/minicolors.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\minicolors\minicolors.js */"./resources/assets/vendor/libs/minicolors/minicolors.js");
 
 
 /***/ }),

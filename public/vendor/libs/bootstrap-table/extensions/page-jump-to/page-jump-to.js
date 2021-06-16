@@ -194,7 +194,7 @@ __webpack_require__(/*! bootstrap-table/src/extensions/page-jump-to/bootstrap-ta
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-table\extensions\page-jump-to\page-jump-to.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/page-jump-to/page-jump-to.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-table\extensions\page-jump-to\page-jump-to.js */"./resources/assets/vendor/libs/bootstrap-table/extensions/page-jump-to/page-jump-to.js");
 
 
 /***/ })

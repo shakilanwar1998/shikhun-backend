@@ -295,7 +295,7 @@ __webpack_require__(/*! blueimp-gallery/js/blueimp-gallery-video.js */ "./node_m
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\blueimp-gallery\gallery-video.js */"./resources/assets/vendor/libs/blueimp-gallery/gallery-video.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\blueimp-gallery\gallery-video.js */"./resources/assets/vendor/libs/blueimp-gallery/gallery-video.js");
 
 
 /***/ }),

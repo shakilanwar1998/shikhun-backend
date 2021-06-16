@@ -2153,7 +2153,7 @@ __webpack_require__(/*! bootstrap-datepicker/dist/js/bootstrap-datepicker.js */ 
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\bootstrap-datepicker\bootstrap-datepicker.js */"./resources/assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\bootstrap-datepicker\bootstrap-datepicker.js */"./resources/assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.js");
 
 
 /***/ }),

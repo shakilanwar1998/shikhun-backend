@@ -433,7 +433,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun\resources\assets\vendor\libs\idletimer\idletimer.js */"./resources/assets/vendor/libs/idletimer/idletimer.js");
+module.exports = __webpack_require__(/*! D:\Program\xampp\htdocs\shikhun-backend\resources\assets\vendor\libs\idletimer\idletimer.js */"./resources/assets/vendor/libs/idletimer/idletimer.js");
 
 
 /***/ })
