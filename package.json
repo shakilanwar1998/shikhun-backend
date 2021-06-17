@@ -1,6 +1,4 @@
 {
-    "name": "appwork-laravel-starter",
-    "version": "1.4.0",
     "private": true,
     "scripts": {
         "dev": "npm run development",

@@ -93,31 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-// Make vegas responsive
-//
-var fnVegas = $.fn.vegas;
-
-$.fn.vegas = function () {
-  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-    args[_key] = arguments[_key];
-  }
-
-  var result = fnVegas.apply(this, args);
-
-  if (args[0] === undefined || _typeof(args[0]) === 'object') {
-    this.each(function () {
-      if (this.tagName.toUpperCase() === 'BODY' || !this._vegas) {
-        return;
-      }
-
-      $(this).css('height', '');
-    });
-  }
-
-  return result;
-};
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'D:\\Program\\xampp\\htdocs\\shikhun-backend\\resources\\assets\\vendor\\libs\\vegas\\_extension.js'");
 
 /***/ }),
 
