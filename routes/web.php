@@ -24,7 +24,22 @@ Route::group(['as' => 'teacher.', 'prefix' => 'teacher', 'namespace' => 'Backend
     Route::post('/delete', 'TeacherController@delete')->name('delete');
 });
 
-Route::group(['as' => 'order.', 'prefix' => 'order', 'namespace' => 'Backend', 'middleware' => 'auth'], function () {
+Route::group(['as' => 'category.', 'prefix' => 'category', 'namespace' => 'Backend'], function () {
+    Route::get('/', 'CategoryController@index')->name('list');
+    Route::post('/store', 'CategoryController@store')->name('store');
+    Route::post('/update', 'CategoryController@update')->name('update');
+    Route::post('/delete', 'CategoryController@delete')->name('delete');
+});
+
+Route::group(['as' => 'course.', 'prefix' => 'course', 'namespace' => 'Backend'], function () {
+    Route::get('/', 'CourseController@index')->name('list');
+    Route::get('/add', 'CourseController@addCourse')->name('add');
+    Route::post('/store', 'CourseController@store')->name('store');
+    Route::post('/update', 'CourseController@update')->name('update');
+    Route::post('/delete', 'CourseController@delete')->name('delete');
+});
+
+Route::group(['as' => 'order.', 'prefix' => 'order', 'namespace' => 'Backend'], function () {
     Route::get('/', 'OrderController@index')->name('list');
 });
 
