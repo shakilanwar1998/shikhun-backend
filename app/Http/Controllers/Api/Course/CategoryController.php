@@ -4,10 +4,11 @@
 namespace App\Http\Controllers\Api\Course;
 
 
+use App\Http\Controllers\Controller;
 use App\Services\Course\CategoryService;
 use Illuminate\Http\Request;
 
-class CategoryController extends \App\Http\Controllers\Controller
+class CategoryController extends Controller
 {
     public CategoryService $service;
 
