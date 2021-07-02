@@ -139,12 +139,12 @@ class CourseController extends Controller
 
     public function show($id)
     {
-    	$categories = $this->category->all();
-    	$images = $this->image->all();
+        $course = $this->service->with(['category', 'teachers'])->find($id);
 
-    	$stock = $this->service->with('stock_images')->find($id);
+    	$trainers = $this->teacher->getFindBy(Roles::TEACHER, 'role_id');
+        $categories = $this->category->all();
     	
-    	return view('backend.manage-stock.stock-update', compact('categories', 'images', 'stock'));
+    	return view('backend.courses.stock-update', compact('course', 'trainers', 'categories'));
     }
 
 

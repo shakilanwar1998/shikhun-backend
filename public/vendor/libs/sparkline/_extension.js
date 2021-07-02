@@ -93,7 +93,190 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'D:\\Program\\xampp\\htdocs\\shikhun-backend\\resources\\assets\\vendor\\libs\\sparkline\\_extension.js'");
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+// Extend sparkline plugin to handle resizing
+//
+// Inline id generator
+function getUniqueId() {
+  var t = (Math.floor(25 * Math.random()) + 10).toString(36) + "_";
+  t += new Date().getTime().toString(36) + "_";
+
+  do {
+    t += Math.floor(35 * Math.random()).toString(36);
+  } while (t.length < 32);
+
+  return t;
+} // Defaults
+
+
+var DEFAULT_BAR_SPACING = '2px'; // Definition
+//
+
+var SparklineExt = /*#__PURE__*/function () {
+  function SparklineExt(element, values, config) {
+    _classCallCheck(this, SparklineExt);
+
+    this.uniqueId = getUniqueId();
+    this.element = element;
+    this.$parent = $(element.parentNode);
+    this.update(values, config);
+
+    this._setListeners();
+  } // public
+
+
+  _createClass(SparklineExt, [{
+    key: "update",
+    value: function update(values, config) {
+      if (values !== null) {
+        this._values = values;
+      }
+
+      if (config !== null) {
+        // Set defaults
+        if (config.width === '100%' && (config.type === 'bar' || config.type === 'tristate') && typeof config.barSpacing === 'undefined') {
+          config.barSpacing = DEFAULT_BAR_SPACING;
+        }
+
+        this.config = config;
+      } // Copy config
+
+
+      var _config = $.extend(true, {}, this.config);
+
+      if (_config.width === '100%') {
+        if (_config.type === 'bar' || _config.type === 'tristate') {
+          _config.barWidth = this._getBarWidth(this.$parent, this._values.length, _config.barSpacing);
+        } else {
+          _config.width = Math.floor(this.$parent.width());
+        }
+      }
+
+      $(this.element).sparkline(this._values, _config);
+    }
+  }, {
+    key: "destroy",
+    value: function destroy() {
+      this._unsetListeners();
+
+      $(this.element).removeData('sparklineExt').removeData('_jqs_mhandler').removeData('_jqs_vcanvas').off().find('canvas').remove();
+    } // private
+
+  }, {
+    key: "_getBarWidth",
+    value: function _getBarWidth($parent, barsCount, spacer) {
+      var width = $parent.width();
+      var span = parseInt(spacer, 10) * (barsCount - 1);
+      return Math.floor((width - span) / barsCount);
+    }
+  }, {
+    key: "_setListeners",
+    value: function _setListeners() {
+      var _this = this;
+
+      $(window).on("resize.sparklineExt.".concat(this.uniqueId), function () {
+        if (_this.config.width !== '100%') {
+          return;
+        } // Copy config
+
+
+        var _config = $.extend(true, {}, _this.config);
+
+        if (_config.type === 'bar' || _config.type === 'tristate') {
+          _config.barWidth = _this._getBarWidth(_this.$parent, _this._values.length, _config.barSpacing);
+        } else {
+          _config.width = Math.floor(_this.$parent.width());
+        }
+
+        $(_this.element).sparkline(_this._values, _config);
+      });
+    }
+  }, {
+    key: "_unsetListeners",
+    value: function _unsetListeners() {
+      $(window).off("resize.sparklineExt.".concat(this.uniqueId));
+    } // static
+
+  }], [{
+    key: "_parseArgs",
+    value: function _parseArgs(element, args) {
+      var values;
+      var config;
+
+      if (Object.prototype.toString.call(args[0]) === '[object Array]' || args[0] === 'html' || args[0] === null) {
+        values = args[0];
+        config = args[1] || null;
+      } else {
+        config = args[0] || null;
+      }
+
+      if ((values === 'html' || values === undefined) && values !== null) {
+        values = element.getAttribute('values');
+
+        if (values === undefined || values === null) {
+          values = $(element).html();
+        }
+
+        values = values.replace(/(^\s*<!--)|(-->\s*$)|\s+/g, '').split(',');
+      }
+
+      if (!values || Object.prototype.toString.call(values) !== '[object Array]' || values.length === 0) {
+        values = null;
+      }
+
+      return {
+        values: values,
+        config: config
+      };
+    }
+  }, {
+    key: "_jQueryInterface",
+    value: function _jQueryInterface() {
+      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      return this.each(function () {
+        var data = $(this).data('sparklineExt');
+        var method = args[0] === 'update' || args[0] === 'destroy' ? args[0] : null;
+
+        var _SparklineExt$_parseA = SparklineExt._parseArgs(this, method ? args.slice(1) : args),
+            values = _SparklineExt$_parseA.values,
+            config = _SparklineExt$_parseA.config;
+
+        if (!data) {
+          data = new SparklineExt(this, values || [], config || {});
+          $(this).data('sparklineExt', data);
+        } else if (values) {
+          data.update(values, config);
+        }
+
+        if (method === 'update') {
+          data.update(values, config);
+        } else if (method === 'destroy') {
+          data.destroy();
+        }
+      });
+    }
+  }]);
+
+  return SparklineExt;
+}(); // jQuery
+//
+
+
+$.fn.sparkline2 = SparklineExt._jQueryInterface;
+$.fn.sparkline2.Constructor = SparklineExt;
+
+$.fn.sparkline2.noConflict = function () {
+  $.fn.sparkline2 = JQUERY_NO_CONFLICT;
+  return SparklineExt._jQueryInterface;
+};
 
 /***/ }),
 
